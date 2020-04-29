@@ -1,0 +1,102 @@
+{
+	"id": "6288f4fa-f788-9ec0-ef6e-1b95d1a9345c",
+	"name": "springboot-fileupload-download",
+	"description": "",
+	"order": [
+		"1fac81f5-1f15-172a-361b-029d7b85a338",
+		"f6103ba6-521e-4b76-8df5-d77f4ac8c67c",
+		"00f07921-b34f-aee8-0b58-e4a67244ec89"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1588164962381,
+	"owner": "1508997",
+	"public": false,
+	"requests": [
+		{
+			"id": "00f07921-b34f-aee8-0b58-e4a67244ec89",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9191/downloadFile/c92b6ce8-95e4-4fe5-8f16-978e434cabe9",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "6288f4fa-f788-9ec0-ef6e-1b95d1a9345c",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:9191/downloadFile/c92b6ce8-95e4-4fe5-8f16-978e434cabe9",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1588165775976,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "1fac81f5-1f15-172a-361b-029d7b85a338",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9191/uploadFile",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6288f4fa-f788-9ec0-ef6e-1b95d1a9345c",
+			"data": [
+				{
+					"key": "file",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:9191/uploadFile",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1588164964825,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "f6103ba6-521e-4b76-8df5-d77f4ac8c67c",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:9191/uploadMultipleFiles",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "6288f4fa-f788-9ec0-ef6e-1b95d1a9345c",
+			"data": [
+				{
+					"key": "files",
+					"value": "",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:9191/uploadMultipleFiles",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1588164982466,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
